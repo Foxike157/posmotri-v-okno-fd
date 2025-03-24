@@ -228,6 +228,8 @@ function chooseCurrentVideo({
         });
         item.classList.add(currentLinkClassName);
         showPreloader(preloaderTmp, videoContainer);
+        showPreloader(preloaderTmp, cardsContainer);
+
         const vidoObj = videoData.find(
           (video) => String(video.id) === String(item.id)
         );
@@ -240,6 +242,8 @@ function chooseCurrentVideo({
         await waitForReadyVideo(mainVideo);
         await delay(preloaderWaitindTime);
         removePreloader(videoContainer, '.preloader');
+        removePreloader(cardsContainer, '.preloader');
+
         console.log('Переключил видео');
       };
     });

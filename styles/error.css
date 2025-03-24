@@ -1,4 +1,6 @@
-.error {
+ .error {
+  width: 711px;
+  height: 397px;
   position: absolute;
   inset: 0;
   display: flex;
@@ -14,3 +16,4 @@
   text-align: center;
   text-transform: uppercase;
 }
+
