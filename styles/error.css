@@ -1,6 +1,6 @@
  .error {
   width: 711px;
-  height: 397px;
+  height: 386px;
   position: absolute;
   inset: 0;
   display: flex;
@@ -15,5 +15,6 @@
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+
 }
 
